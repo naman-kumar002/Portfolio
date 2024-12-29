@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(13, 13, 53);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style-type: none;
+            margin: 0 25px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(97, 97, 100);
+            font-size: 1.01rem;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 60px 0;
+            align-items: center;
+        }
+
+        .firstSection >div{
+            width: 30%;
+        }
+
+        .leftSection{
+            font-size: 2.5rem;
+            
+        }
+
+        .leftSection .btn{
+            height: 40px;
+            width: 100px;
+            background-color: rgb(61, 24, 184);
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .buttons{
+            padding: 23px;
+        }
+
+        .leftSection .btn:hover{
+            background-color: rgb(15, 15, 134);
+            font-size: 1.1rem;
+        }
+
+        .rightSection img{
+            width: 90%;
+            background-color: rgb(1, 1, 34);
+        }
+
+        .textPurple{
+            color: rgb(178, 126, 226);
+        }
+
+        .textGrey{
+            color: grey;
+        }
+
+        #element{
+            color: rgb(178, 126, 226);
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr{
+            border: 0px;
+            background-color: rgb(174, 174, 241);
+            height: 0.5px;
+            margin: 70px 80px;
+        }
+        .secondSection h1{
+            font-size: 1.7rem;
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 83vw;
+            height: 1.5px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 90px;
+            width: 1px;
+            background-color: white;
+            margin: 0 130px;
+        }
+
+        .imageTop{
+            width: 27px;
+            position: relative;
+            top: -30px;
+            left: -9px;
+        }
+        .verticalTitle1{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .verticalTitle2{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 10px;
+        }
+        footer{
+            background-color: #16161f;
+           
+        }
+
+        .footer{
+            display: flex;
+            margin: 25px 100px;
+            justify-content: space-evenly;
+            padding-top: 10px;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+
+        footer .footerTextCenter{
+            text-align: center;
+            color: gray;
+            padding: 15px 0;
+        }
+
+        .footer > div{
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Naman's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/Education.html">Education</a></li>
+                    <li><a href="/Experience.html">Experience</a></li>
+                    <li><a href="/Project.html">Projects</a></li>
+                    <li><a href="/Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="textPurple">Naman</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Resume</button>
+                    <button class="btn">Github</button>
+
+                </div>
+                
+            </div>
+            <div class="rightSection"><img src="/naman2.webp" alt="web picture"></div>
+        </section>
+<hr>
+        <section class="secondSection">
+            <span class="textGrey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical"><img src="/htmllogo.png" alt="photo" class="imageTop">
+                <div class="verticalTitle1">HTML Developer <br> (2023 - till now)
+                </div>
+                <div class="verticalTitle2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis id doloremque corrupti, exercitationem quod beatae vitae, eligendi impedit illo voluptatem rerum natus molestias inventore in. Repellat velit similique quae maxime.
+                </div>
+                </div>
+                <div class="vertical"><img src="/csslogo.png" alt="photo" class="imageTop">
+                    <div class="verticalTitle1">CSS Developer <br> (2023 - till now)
+                    </div>
+                    <div class="verticalTitle2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis id doloremque corrupti, exercitationem quod beatae vitae, eligendi impedit illo voluptatem rerum natus molestias inventore in. Repellat velit similique quae maxime.
+                    </div></div>
+                <div class="vertical"><img src="/javascriptlogo.png" alt="photo" class="imageTop">
+                    <div class="verticalTitle1">JavaScript Developer <br>(2024 - till now)
+                    </div>
+                    <div class="verticalTitle2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis id doloremque corrupti, exercitationem quod beatae vitae, eligendi impedit illo voluptatem rerum natus molestias inventore in. Repellat velit similique quae maxime.
+                    </div></div>
+                <div class="vertical"><img src="/mysqllogo.png" alt="photo" class="imageTop">
+                    <div class="verticalTitle1">MySQL <br> (2024 - till now)
+                    </div>
+                    <div class="verticalTitle2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis id doloremque corrupti, exercitationem quod beatae vitae, eligendi impedit illo voluptatem rerum natus molestias inventore in. Repellat velit similique quae maxime.
+                    </div></div>
+            </div>
+        </section>
+    </main>
+   
+    <footer>
+        <div class="footer">
+            <div class="footerFirst">
+                <h3>Naman's Developer Portfolio</h3>
+            </div>
+            <div class="footerSecond">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footerThird">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+            <div class="footerFourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="footerTextCenter">Copyright&#169;//namanportfolio.com</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+     <!-- setup and start animation -->
+     <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
